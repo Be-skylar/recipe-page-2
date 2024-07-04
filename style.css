@@ -1,4 +1,78 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: 'Outfit-VariableFont_wght', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'YoungSerif-Regular', sans-serif;
+}
+
+@font-face {
+  font-family: 'YoungSerif-Regular';
+  src: url('YoungSerif-Regular.ttf') format('truetype'),
+    font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit-VariableFont_wght';
+  src: url('Outfit-VariableFont_wght.ttf') format('truetype'),
+    font-weight: normal;
+  font-style: normal;
+}
+
+.picture {
+  border-radius: 0.5rem;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+  padding: 10px
+}
+
+p,
+tbody {
+  font-size: 16px;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%)
+}
+
+.Preparation {
+  color: hsl(332, 51%, 32%);
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.3cm;
+  padding: 0.5rem;
+}
+
+.Ingredients,
+.Instructions,
+.changecolor {
+  color: hsl(14, 45%, 36%);
+}
+
+li p,
+td {
+  color: black;
+  position: relative;
+  left: 1rem;
+}
+
+h3 {
+  position: relative;
+  left: 1rem;
+}
+
+.all {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 2.5rem;
+
+  width: 500px;
+  margin: auto;
+  width: 50%;
 }
